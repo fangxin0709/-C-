@@ -56,4 +56,49 @@ using namespace std;
 
 //     return 0;
 // }
+// #include <iostream>
+// using namespace std;
+// /* run this program using the console pauser or add your own getch, system("pause") or input loop */
+
+// int main(int argc, char** argv) {
+// 	int n;
+// 	int x=0;
+// 	cin>>n;
+// 	for(int i=0;i<n;i++){
+// 		for(int j=0;j<n;j++){
+// 			if(i==0 || i==n-1){
+// 				cout<<1;
+// 			}else{
+// 				if(n%2==0){
+// 					if(i==n/2 || i==n/2-1){
+// 						if(j<n/2){
+// 							x++;
+// 							cout<<x;
+// 						}else if(j==n/2){
+// //							x++;
+// 							cout<<x;
+// 						}else{
+// 							x--;
+// 							cout<<x;
+// 						}
+// 					}else{
+// 						if(j<n/2 && x<j+1 && x < i+1 && x < n-i  ){
+// 							x++;
+// 							cout<<x;	
+// 						}else if(j<n-1){
+// 							cout<<x;
+// 						}else{
+// 							x--;
+// 							cout<<x;
+// 						}	
+// 					}
+					
+// 				}
+// 			}
+// 		}
+// 		x=0;
+// 		cout<<endl;
+// 	}
+// 	return 0;
+// }
 
